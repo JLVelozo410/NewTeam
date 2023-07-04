@@ -1,0 +1,401 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16158 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Projects/FPS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50517
+Successfully changed project path to: E:/Unity/Projects/FPS
+E:/Unity/Projects/FPS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13584] Host "[IP] 10.0.0.181 [Port] 0 [Flags] 2 [Guid] 1216819751 [EditorId] 1216819751 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UPAC43A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13584] Host "[IP] 10.0.0.181 [Port] 0 [Flags] 2 [Guid] 1216819751 [EditorId] 1216819751 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UPAC43A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 14.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Projects/FPS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro RTX 3000 (ID=0x1f36)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1801
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2022.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: E:/Unity/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: E:/Unity/2022.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.011742 seconds.
+- Loaded All Assemblies, in  0.617 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 1046ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (211ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (429ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Projects\FPS\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Projects\FPS\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.168 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.490 seconds
+Domain Reload Profiling: 1658ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (779ms)
+		LoadAssemblies (512ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (399ms)
+				TypeCache.ScanAssembly (379ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (491ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (345ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.6 KB). Loaded Objects now: 3529.
+Memory consumption went from 115.8 MB to 115.8 MB.
+Total: 3.300800 ms (FindLiveObjects: 0.231900 ms CreateObjectMapping: 0.143600 ms MarkObjects: 2.840000 ms  DeleteObjects: 0.084400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6328.902489 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(8d3a7abefb713f64e9d508368a088ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(8d3a7abefb713f64e9d508368a088ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297a87e05fb2dc7a1016dbff542c42e6') in 0.009421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.723219 seconds.
+  path: Assets/Script
+  artifactKey: Guid(8d3a7abefb713f64e9d508368a088ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(8d3a7abefb713f64e9d508368a088ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8341dd47c16f3af4d76bc68f1aed487b') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.795043 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(8d3a7abefb713f64e9d508368a088ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(8d3a7abefb713f64e9d508368a088ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d663ff8787e61072352ec76992e4a63') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 58.551535 seconds.
+  path: Assets/Guns
+  artifactKey: Guid(40eb0d4cdbecf0e4886bac285c0ca747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns using Guid(40eb0d4cdbecf0e4886bac285c0ca747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250bf032369c7285a7df423dd775d369') in 0.000512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.149434 seconds.
+  path: Assets/Guns/modern-weapons
+  artifactKey: Guid(2bfb1cdd558cffc4b8aa557a6fd2aa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons using Guid(2bfb1cdd558cffc4b8aa557a6fd2aa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4fb74c57bc2b0838b74fef27a1ef83') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.990115 seconds.
+  path: Assets/Guns/modern-weapons/870 Shotgun
+  artifactKey: Guid(9b1a14879e74a014ea320f90db9552d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons/870 Shotgun using Guid(9b1a14879e74a014ea320f90db9552d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c21459aa7ae464a87ffba980ae31c5') in 0.001596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.105165 seconds.
+  path: Assets/Guns/modern-weapons/870 Shotgun/870_Shotgun.fbx
+  artifactKey: Guid(75c7cc0c61ef8534ea4868e90294e98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons/870 Shotgun/870_Shotgun.fbx using Guid(75c7cc0c61ef8534ea4868e90294e98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b180031c500f1f49f1c554106e2ba08a') in 0.834425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 43.775666 seconds.
+  path: Assets/Guns/modern-weapons/870 Shotgun/Textures
+  artifactKey: Guid(a3e2dfe973c86db48bae435bf48a23ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons/870 Shotgun/Textures using Guid(a3e2dfe973c86db48bae435bf48a23ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02250aab04e0bc72c9b169b41954675b') in 0.000437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059337 seconds.
+  path: Assets/Guns/modern-weapons/870 Shotgun/Textures/870_Shotgun_Albedo.png
+  artifactKey: Guid(dbac20b481ba5564798c4226aba8b8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons/870 Shotgun/Textures/870_Shotgun_Albedo.png using Guid(dbac20b481ba5564798c4226aba8b8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fccdc167e7f425509d0ef264ad6ad8e') in 0.072707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Guns/modern-weapons/870 Shotgun/Textures/870_Shotgun_Normal.png
+  artifactKey: Guid(27ef87e3cee94d047896384d8872bdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons/870 Shotgun/Textures/870_Shotgun_Normal.png using Guid(27ef87e3cee94d047896384d8872bdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7729a7827c1af3a9dbb3207990ee05e') in 0.035614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.881152 seconds.
+  path: Assets/Guns/modern-weapons 1/modern-weapons
+  artifactKey: Guid(0e31c9055cb0e144886dfe60b216f69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons 1/modern-weapons using Guid(0e31c9055cb0e144886dfe60b216f69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b98470a1b345a235c42bfe841e775d') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.272791 seconds.
+  path: Assets/Guns/modern-weapons 1/modern-weapons/Pistol
+  artifactKey: Guid(bf42548def485fd48874bd40b43dc7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons 1/modern-weapons/Pistol using Guid(bf42548def485fd48874bd40b43dc7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f56d1075ba70411a0231da1052e1f67') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080012 seconds.
+  path: Assets/Guns/modern-weapons 1/modern-weapons/Pistol/Pistol.fbx
+  artifactKey: Guid(42d9fd43726a4a64f85c93d1e9f8b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons 1/modern-weapons/Pistol/Pistol.fbx using Guid(42d9fd43726a4a64f85c93d1e9f8b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4f0239d4434692e3ea2c057d7d725f') in 0.039616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 14.132987 seconds.
+  path: Assets/Guns/modern-weapons/Modern Weapons.unitypackage
+  artifactKey: Guid(0ff7e72ea54750d4998c05fa88824562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons/Modern Weapons.unitypackage using Guid(0ff7e72ea54750d4998c05fa88824562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ef00b39e42dbec3d4775c1407ddf30') in 0.000854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.550314 seconds.
+  path: Assets/Guns/modern-weapons/Pistol
+  artifactKey: Guid(b04929969ff68f348919d3da4bbb0857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons/Pistol using Guid(b04929969ff68f348919d3da4bbb0857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6eb03b87de6ed04b86bb2c8caab23d5') in 0.000356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062036 seconds.
+  path: Assets/Guns/modern-weapons/Pistol/Pistol.fbx
+  artifactKey: Guid(f02b5e65bdfcdda4c92267e09d53b574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/modern-weapons/Pistol/Pistol.fbx using Guid(f02b5e65bdfcdda4c92267e09d53b574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d855cfffdd6627cc81f479469d5e80') in 0.039890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 6.184170 seconds.
+  path: Assets/Modern Weapons/870 Shotgun
+  artifactKey: Guid(08bbcb36cd175864286206465e5a4b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/870 Shotgun using Guid(08bbcb36cd175864286206465e5a4b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa2db67d2b13909c180b37c559dc5c0') in 0.000470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080157 seconds.
+  path: Assets/Modern Weapons/870 Shotgun/870_Shotgun.fbx
+  artifactKey: Guid(621a34edc52ed564691a1e478641944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Weapons/870 Shotgun/870_Shotgun.fbx using Guid(621a34edc52ed564691a1e478641944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a065c8aae9df2729948724f0d5cdf8f1') in 0.465816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 13.110245 seconds.
+  path: Assets/Guns/Modern Weapons
+  artifactKey: Guid(9da469edfb0272e4da8d89d3687191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Modern Weapons using Guid(9da469edfb0272e4da8d89d3687191de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed7cb86f1864008f607b85862d45ee4') in 0.000620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.838414 seconds.
+  path: Assets/Guns/Modern Weapons/Example
+  artifactKey: Guid(bf30c0ea4cb8ffc48a36ce21a48d0b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Modern Weapons/Example using Guid(bf30c0ea4cb8ffc48a36ce21a48d0b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5436ab5ccf7622a4118ba4ecea39debc') in 0.001318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049898 seconds.
+  path: Assets/Guns/Modern Weapons/Example/Ground.mat
+  artifactKey: Guid(51b6bd86f5785754fa44f50a87561a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Modern Weapons/Example/Ground.mat using Guid(51b6bd86f5785754fa44f50a87561a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a677de32a29874edc6a8c99e55cf80') in 0.130486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 36.856945 seconds.
+  path: Assets/Guns/870 Shotgun/Textures
+  artifactKey: Guid(c298a0c86e23b734b8a99c219e60842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/870 Shotgun/Textures using Guid(c298a0c86e23b734b8a99c219e60842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147c5bc9b5ca9853b072be81ff646829') in 0.000371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.671651 seconds.
+  path: Assets/3rd Party Assets/FPS
+  artifactKey: Guid(b812fe348e746c242b4c0bdcbb9a27ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/FPS using Guid(b812fe348e746c242b4c0bdcbb9a27ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfbdd04e3f4f13aef7c5b747db69f16') in 0.000625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.125170 seconds.
+  path: Assets/3rd Party Assets/FPS/FPS-AK47.fbx
+  artifactKey: Guid(d7e93aca4be6fd040ac3037ca5304922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/FPS/FPS-AK47.fbx using Guid(d7e93aca4be6fd040ac3037ca5304922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cf52fc1919c2c22f33b58257216345') in 0.122915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 133
+========================================================================
+Received Import Request.
+  Time since last request: 7.881301 seconds.
+  path: Assets/3rd Party Assets/FPS/textures
+  artifactKey: Guid(23181a7166b8c6440b456f21f72dcf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/FPS/textures using Guid(23181a7166b8c6440b456f21f72dcf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec554f7227a2c2a6c90416f5a826938c') in 0.000481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.057971 seconds.
+  path: Assets/3rd Party Assets/FPS/textures/brown_eye.png
+  artifactKey: Guid(5d7488c20121f47499abb917155dcf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/FPS/textures/brown_eye.png using Guid(5d7488c20121f47499abb917155dcf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8396fa980ce7d55a034e1b6bd39de1de') in 0.032725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.891157 seconds.
+  path: Assets/3rd Party Assets/FPS/Materials/young_lightskinned_male_diffuse2.mat
+  artifactKey: Guid(233591175e6dd934bb15e08e57a39f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/FPS/Materials/young_lightskinned_male_diffuse2.mat using Guid(233591175e6dd934bb15e08e57a39f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65481770378657b7fa23ad8599020a55') in 0.027636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
