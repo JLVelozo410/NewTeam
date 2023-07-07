@@ -338,33 +338,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &574683382 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1988983132129237301, guid: 997684c86b3b6194e8e41aa63748458f, type: 3}
-  m_PrefabInstance: {fileID: 2814935433509426934}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &574683385 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5468955007981658674, guid: 997684c86b3b6194e8e41aa63748458f, type: 3}
   m_PrefabInstance: {fileID: 2814935433509426934}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &574683386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574683382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f7b19c23d744b74790218e57e1bccb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerGunTransform: {fileID: 1127570488}
-  Gun: {fileID: 874516782}
-  Camera: {fileID: 963194231}
-  range: 2
-  open: 100
 --- !u!1 &617999610
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,47 +584,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4673698789189226841, guid: d43e1a4df3999764882b308592a1cfc9, type: 3}
   m_PrefabInstance: {fileID: 8559570682937929010}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &874516788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874516782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e001b46141ab5874591cc8a2354ad233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0
+  timeBetweenShooting: 0
+  spread: 0
+  range: 0
+  reloadTime: 0
+  timeBetweenShots: 0
+  magazineSize: 0
+  bulletsPerTap: 0
+  allowButtonHold: 0
+  fpsCam: {fileID: 0}
+  attackPoint: {fileID: 0}
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!4 &963194228 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8660463884884637107, guid: 997684c86b3b6194e8e41aa63748458f, type: 3}
   m_PrefabInstance: {fileID: 2814935433509426934}
   m_PrefabAsset: {fileID: 0}
---- !u!20 &963194231 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 6667400441705774441, guid: 997684c86b3b6194e8e41aa63748458f, type: 3}
-  m_PrefabInstance: {fileID: 2814935433509426934}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1127570487
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1127570488}
-  m_Layer: 0
-  m_Name: PlayerGunTransform
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1127570488
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1127570487}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.629, y: 2.838, z: 1.193}
-  m_LocalScale: {x: 1.500003, y: 1.5, z: 1.500003}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1535092620
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,10 +895,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8660463884884637107, guid: 997684c86b3b6194e8e41aa63748458f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 802903064}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1988983132129237301, guid: 997684c86b3b6194e8e41aa63748458f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 574683386}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 997684c86b3b6194e8e41aa63748458f, type: 3}
 --- !u!1001 &8559570682937929010
 PrefabInstance:
@@ -1005,6 +970,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 963194228}
     - target: {fileID: 6974697269099206208, guid: d43e1a4df3999764882b308592a1cfc9, type: 3}
+      propertyPath: gunScr
+      value: 
+      objectReference: {fileID: 874516788}
+    - target: {fileID: 6974697269099206208, guid: d43e1a4df3999764882b308592a1cfc9, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 574683385}
@@ -1027,5 +996,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3083145457690494458, guid: d43e1a4df3999764882b308592a1cfc9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 874516788}
   m_SourcePrefab: {fileID: 100100000, guid: d43e1a4df3999764882b308592a1cfc9, type: 3}

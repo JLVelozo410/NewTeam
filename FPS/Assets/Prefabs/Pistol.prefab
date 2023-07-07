@@ -117,7 +117,6 @@ GameObject:
   - component: {fileID: 7220773343172709077}
   - component: {fileID: 3960461978779562253}
   - component: {fileID: 7649597844446072294}
-  - component: {fileID: 2380559566152822104}
   - component: {fileID: 6974697269099206208}
   m_Layer: 0
   m_Name: Pistol
@@ -140,7 +139,7 @@ Transform:
   m_Children:
   - {fileID: 922278644894612135}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7220773343172709077
 MeshFilter:
@@ -219,18 +218,6 @@ Rigidbody:
   m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 3
---- !u!114 &2380559566152822104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3083145457690494458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e001b46141ab5874591cc8a2354ad233, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6974697269099206208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51e03fb4aec43bd4ead44b2b3f636096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunScr: {fileID: 2380559566152822104}
+  gunScr: {fileID: 0}
   rb: {fileID: 7649597844446072294}
   coll: {fileID: 6184583721799668045}
   player: {fileID: 0}
